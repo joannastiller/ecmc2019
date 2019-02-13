@@ -21,3 +21,7 @@ body {
 .about-picture {
     background: url(img/about-bcg.jpg)center/cover no-repeat fixed;
 }
+
+#filler {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5)), url(img/about-bcg.jpg)center/cover no-repeat fixed;
+}
