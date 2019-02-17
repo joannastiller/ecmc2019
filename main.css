@@ -1,11 +1,15 @@
 /* font-family: 'Arvo', serif; */
 
 body {
-    font-family: 'Arvo', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .height {
     min-height: 100vh;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .4)), url(img/ecmc_szczecin.jpg)center/cover no-repeat fixed;
 }
 
 .title-underline {
@@ -19,10 +23,9 @@ body {
 }
 
 .about-picture {
-    background: url(img/about-bcg.jpg)center/cover no-repeat fixed;
+    background: url(img/blue_bike.JPG)center/cover no-repeat fixed;
 }
 
-#filler,
-#progress {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5)), url(img/about-bcg.jpg)center/cover no-repeat fixed;
+#shop {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5)), url(img/shop.jpg)center/cover no-repeat fixed;
 }
